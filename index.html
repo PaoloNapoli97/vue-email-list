@@ -7,9 +7,12 @@
     <title>Document</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app" > {{mails}} </div>
+    <div id="app"> 
+        <p  v-cloak>{{mails}}</p> 
+    </div>
 
     <script src="script.js"></script>
 </body>
