@@ -11,7 +11,8 @@
 </head>
 <body>
     <div id="app"> 
-        <p  v-cloak>{{mails}}</p> 
+        <div v-if="mails.length === 10">
+            <p>{{mails}}</p> </div> 
     </div>
 
     <script src="script.js"></script>
